@@ -2,6 +2,12 @@ package mainpackage;
 
 public class Wife {
 	private String wifename;
+
+	public Wife(String stringname){
+		
+		wifename = stringname;
+	}
+	
 	
 	public void setWifeName(String name){
 		wifename = name;
