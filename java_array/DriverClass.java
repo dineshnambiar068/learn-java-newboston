@@ -53,10 +53,10 @@ public class DriverClass {
 		RandomInteger randObj = new RandomInteger();
 //		System.out.println(randObj.generateRandInt());
 		
-		randObj.calcDiceProb();
+		//randObj.calcDiceProb(); //------------------------- Calculate dice prob
 		
 		int firstarray[][] = {{8,9,10,11},{12,13,14,15}};
-		int secondarray[][] = {{30,1,32,33},{43},{4,5,6}};
+		int secondarray[][] = {{30,31,32,33},{43},{4,5,6}};
 
 		MultiArray maObj = new MultiArray();
 		maObj.display(firstarray);
