@@ -10,10 +10,13 @@ public class MultiArray{
 		
 	public void display(int x[][]){
 		
+		System.out.println("Column\tCol1\tCol2\tCol3\tCol4");
 		for(int row=0;row < x.length;row++){
+			System.out.print("Row"+row+"\t");
 			for(int column=0;column<x[row].length;column++){
-				System.out.println(x[row][column]+"\t");
+				System.out.print(x[row][column]+"\t");
 			}
+			System.out.println();
 		}
 	}
 }
